@@ -1,0 +1,23 @@
+{
+  "data_root": "/data/users/jw/data/Orchid2024",
+  "output_dir": "outputs/ectformer_c1",
+  "variant": "x1.0",
+  "epochs": 100,
+  "warmup_epochs": 5,
+  "batch_size": 32,
+  "grad_accum_steps": 1,
+  "image_size": 224,
+  "lr": 0.001,
+  "weight_decay": 0.05,
+  "num_workers": 8,
+  "seed": 42,
+  "label_smoothing": 0.1,
+  "mixup": 0.0,
+  "cutmix": 0.0,
+  "mix_prob": 1.0,
+  "drop_rate": 0.0,
+  "disable_randaugment": false,
+  "disable_random_erasing": false,
+  "resume": "",
+  "log_interval": 50
+}
